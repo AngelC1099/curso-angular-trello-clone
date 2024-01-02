@@ -9,14 +9,14 @@ import { SharedModule } from '@shared/shared.module';
 import { BoardsRoutingModule } from './boards-routing.module';
 import { BoardsComponent } from './pages/boards/boards.component';
 import { BoardComponent } from './pages/board/board.component';
-import { TodoDialogComponent } from './components/todo-dialog/todo-dialog.component';
+import { CardDialogComponent } from './components/card-dialog/card-dialog.component';
 
 
 @NgModule({
   declarations: [
     BoardsComponent,
     BoardComponent,
-    TodoDialogComponent
+    CardDialogComponent
   ],
   imports: [
     CommonModule,
